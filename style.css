@@ -1,16 +1,15 @@
+
 img{
-    border: 10px solid black;
+    border: 10px solid #986f9c;
     padding: 0px;
     margin: 0px;
+    border-radius: 100px;
 }
-body{
-    color: white;
-    background-color:rgb(40, 82, 40);
-    text-align: center;
-}
-h1{
-    font-size: 50px;
-    background-color: rgb(20, 53, 20);
-    padding: 50px;
-    border: solid 10px rgb(7, 19, 7);
+
+
+figure{
+    background-color:#43325a;
+ padding: 0px;
+ bordr: solid black 10px;
+ margin: 0px;
 }
