@@ -4,6 +4,7 @@ img{
     padding: 0px;
     margin: 0px;
     border-radius: 100px;
+    
 }
 
 
@@ -13,3 +14,9 @@ figure{
  bordr: solid black 10px;
  margin: 0px;
 }
+body{
+    text-align: center;
+}
+
+
+
