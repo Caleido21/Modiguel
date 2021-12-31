@@ -1,7 +1,12 @@
+/*#4dd78d
+  #43325a
+  #986f9c*/
+  
 *{
-    
+    box-sizing: border-box;  
     margin: 0px;
     padding: 0px;
+
 }
 li{
     list-style: none;
@@ -12,32 +17,33 @@ li{
     width: 100px;
     display: inline-block;
     float: none;
-   
+   text-align: center;
 }
 .galeria{
     border: 10px solid #986f9c;
     padding: 0px;
     margin: 0px;
     border-radius: 100px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 figure{
 background-color:#43325a;
  padding: 0px;
  margin: 0px;
-}
-body{
-    text-align: center;
+ text-align: center;
 }
 #banner{
-    float: center;
-    width: 45%;
+    width: 40%;
+    text-align: center;
 }
 a{
  color: white;
+ font-size: 110%;
+ font-family: sans-serif;
+ text-align: center;
 }
-
-
-
+#logo{
+    float: left;
+    right: 30px;
+}
