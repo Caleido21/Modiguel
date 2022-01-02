@@ -1,11 +1,22 @@
 /*#4dd78d
   #43325a
-  #986f9c*/
+  #986f9c
+      border: solid black 1px;*/
   
 *{
     box-sizing: border-box;  
     margin: 0px;
     padding: 0px;
+
+}
+html{
+    background-color: #986f9c;
+}
+body{
+margin:auto;
+width: 90%;
+border: 10px #43325a solid;
+background-color: white;
 
 }
 li{
@@ -19,22 +30,27 @@ li{
     float: none;
    text-align: center;
 }
+#galeria{
+    text-align: center;
+}
 .galeria{
     border: 10px solid #986f9c;
     padding: 0px;
     margin: 0px;
     border-radius: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
-figure{
+.galeria:hover{
+    border:15px solid #4dd78d;
+}
+#nav{
 background-color:#43325a;
  padding: 0px;
  margin: 0px;
  text-align: center;
 }
 #banner{
-    width: 40%;
+    width: 45%;
     text-align: center;
 }
 a{
@@ -43,7 +59,20 @@ a{
  font-family: sans-serif;
  text-align: center;
 }
+a:hover{
+    color:#4dd78d;
+}
 #logo{
-    float: left;
-    right: 30px;
+        width: 8%;
+        position: relative;
+        left: 4%;
+}
+#titulo{
+    border-radius: 10px;
+    background-color: #43325a;
+    color: white;
+    width: 45%;
+    margin:auto;
+    text-align: center;
+    font-size: 200%;
 }
