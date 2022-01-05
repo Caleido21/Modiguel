@@ -7,72 +7,51 @@
     box-sizing: border-box;  
     margin: 0px;
     padding: 0px;
-
 }
 html{
-    background-color: #986f9c;
+    background-color: #4dd78d;
 }
 body{
-margin:auto;
-width: 90%;
-border: 10px #43325a solid;
-background-color: white;
-
+    background-color: #43325a;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    border: solid 0.5rem #43325a;
 }
-li{
-    list-style: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    width: 100px;
-    display: inline-block;
-    float: none;
-   text-align: center;
-}
-#galeria{
-    text-align: center;
-}
-.galeria{
-    border: 10px solid #986f9c;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 100px;
-    text-align: center;
-}
-.galeria:hover{
-    border:15px solid #4dd78d;
-}
-#nav{
-background-color:#43325a;
- padding: 0px;
- margin: 0px;
- text-align: center;
-}
-#banner{
-    width: 45%;
-    text-align: center;
-}
-a{
- color: white;
- font-size: 110%;
- font-family: sans-serif;
- text-align: center;
-}
-a:hover{
-    color:#4dd78d;
+header{
+    background-color: #43325a;
 }
 #logo{
-        width: 8%;
-        position: relative;
-        left: 4%;
+    width: 4%;
 }
-#titulo{
-    border-radius: 10px;
-    background-color: #43325a;
-    color: white;
-    width: 45%;
-    margin:auto;
+aside{
+    background-color: #986f9c;
+    padding: 1%;
     text-align: center;
-    font-size: 200%;
+    align-items: center;
+    width: 20%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.galeria{
+width: 95%;
+border: #43325a solid 5px;
+border-radius: 25%;
+}
+.galeria:hover{
+    border: #4dd78d solid 10px;
+}
+#main-galery{
+    background-color: #43325a;
+    width: 80%;
+    position: absolute;
+    display: inline-block;
+    border: solid #43325a 10px;
+    border-radius: 20px;
+
+}
+#main-galery-img{
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
 }
