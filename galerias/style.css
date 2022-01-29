@@ -7,51 +7,43 @@
     box-sizing: border-box;  
     margin: 0px;
     padding: 0px;
+    border: rgb(255, 0, 0) solid 3px;
 }
 html{
-    background-color: #4dd78d;
+    font-size: 62.5;
+    display: flex;
+    justify-content: center;
 }
 body{
-    background-color: #43325a;
-    width: 90%;
-    position: relative;
-    margin: auto;
-    border: solid 0.5rem #43325a;
+    background-image: url(../imagenes/fondo.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
 }
-header{
+.banner{
     background-color: #43325a;
+    width: 100vw;
 }
 #logo{
-    width: 4%;
-}
-aside{
-    background-color: #986f9c;
-    padding: 1%;
-    text-align: center;
-    align-items: center;
-    width: 20%;
-    display: inline-block;
-    border-radius: 10px;
+    width: 5vw
 }
 .galeria{
-width: 95%;
-border: #43325a solid 5px;
-border-radius: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:20vw;
 }
-.galeria:hover{
-    border: #4dd78d solid 10px;
+.galeria_img{
+    width:90%;
 }
 #main-galery{
-    background-color: #43325a;
-    width: 80%;
-    position: absolute;
-    display: inline-block;
-    border: solid #43325a 10px;
-    border-radius: 20px;
-
+    flex-basis: 30vw;
+    flex-grow: 1;
 }
 #main-galery-img{
-    width: 100%;
-    position: relative;
-    border-radius: 10px;
+    width: 90%;
+}
+main{
+    width: 6   8vw;
+    display: flex;
 }
